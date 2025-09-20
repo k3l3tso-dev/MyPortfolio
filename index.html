@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keletso Masoho - Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress"></div>
+
+    <!-- Dark Mode Toggle -->
+    <div class="theme-switch-wrapper">
+      <span class="theme-toggle-text">☀️</span>
+      <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+      </label>
+      <span class="theme-toggle-text">🌙</span>
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+      <div class="container">
+        <nav>
+          <div class="logo">< Keletso<span>Masoho /></span></div>
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#social-links">Social</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="parallax">
+      <div class="container">
+        <div class="hero-content animate-on-scroll">
+          <h1 id="typing-line1">Hi, I'm Keletso Masoho</h1>
+          <h2 id="typing-line2"></h2>
+          <p>
+            <i>
+              I am an IT professional with 4+ years of coding experience,
+              specializing in front-end & back-end development, application
+              design, and software testing. With A+ and Network+ certifications
+              and strong IT support experience, I create functional,
+              user-focused websites and applications that are both reliable and
+              impactful.</i
+            >
+          </p>
+          <a href="#projects" class="btn"><b>View My Work</b></a>
+        </div>
+        <div class="hero-image animate-on-scroll">
+          <img src="MyPicture.png" alt="Keletso Masoho" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">About Me</h2>
+        <div class="about-content">
+          <div class="about-text animate-on-scroll">
+            <div class="passage-box">
+              <p>
+                <i
+                  >I am a dedicated and versatile Computer Science student with
+                  over 4 years of coding experience. My expertise spans across
+                  front-end and back-end development, application design, and
+                  software testing, giving me a well-rounded understanding of
+                  the full software development lifecycle.</i
+                >
+              </p>
+              <p>
+                <i>
+                  I hold short courses in A+ and N+ certifications, which
+                  strengthen my foundation in IT support, networking, and
+                  troubleshooting. This combination of software development
+                  skills and IT support experience enables me to deliver
+                  efficient, scalable, and reliable solutions.</i
+                >
+              </p>
+              <p>
+                Passionate about continuous learning and innovation, I thrive in
+                both independent and team-based environments, always aiming to
+                bridge the gap between user needs and technical implementation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="parallax">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Education</h2>
+        <div class="education-container animate-on-scroll">
+          <div class="education-item">
+            <h3><i class="fas fa-university"></i> Bachelor of Computing</h3>
+            <div class="education-details">
+              <span
+                ><i class="fas fa-school"></i> Belgium Campus iTversity</span
+              >
+              <span><i class="far fa-calendar-alt"></i> 2022 - Present</span>
+            </div>
+            <p>
+              Currently pursuing my degree with focus on software development,
+              database systems, and web programming.
+            </p>
+            <div class="education-stats">
+              <div class="stat animate-on-scroll" data-delay="0">
+                <span class="counter" data-target="4">0</span>
+                <span class="stat-label"
+                  ><i class="fas fa-briefcase"></i> Years Experience</span
+                >
+              </div>
+              <div class="stat animate-on-scroll" data-delay="200">
+                <span class="counter" data-target="12">0</span>
+                <span class="stat-label"
+                  ><i class="fas fa-project-diagram"></i> Projects
+                  Completed</span
+                >
+              </div>
+              <div class="stat animate-on-scroll" data-delay="400">
+                <span class="counter" data-target="4">0</span>
+                <span class="stat-label"
+                  ><i class="fas fa-certificate"></i> Certifications</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Work Experience</h2>
+        <div class="timeline animate-on-scroll">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-connector"></div>
+            <div class="timeline-date">2022 March - 2024 February</div>
+            <div class="timeline-content">
+              <h3><i class="fas fa-laptop-code"></i> IT Technician</h3>
+              <div class="timeline-duties">
+                <ul>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Provided Level 1-2
+                    technical support for employees across multiple departments
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Troubleshot set-top
+                    boxes, decoders and broadcast equipment
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Supported Windows 10/11
+                    deployments and software installations
+                  </li>
+                </ul>
+              </div>
+              <div class="timeline-info">
+                <br>
+                  <i class="fas fa-user-tie"></i> <strong>Report To:</strong><br> IT
+                  Support Supervisor</br>
+                </p>
+                <br>
+                  <i class="fas fa-laptop"></i>
+                  <strong>Systems Used:</strong> <br>DStv CRM Technical Systems
+                  (Fsia), Microsoft Office 365</br>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-date">2017 December - 2021 May</div>
+            <div class="timeline-content">
+              <h3><i class="fas fa-cogs"></i> Machine Operator</h3>
+              <div class="timeline-duties">
+                <ul>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Operated and maintained
+                    machinery used in production processes
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Conducted routine
+                    inspections and troubleshooting to ensure optimal machine
+                    functionality
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Followed safety
+                    protocols and quality standards to maintain a safe work
+                    environment
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Assisted in setup,
+                    calibration, and adjustment of machines as needed
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> Recorded production data
+                    and reported any malfunctions or issues to supervisors
+                  </li>
+                </ul>
+              </div>
+              <div class="timeline-info">
+                <br>
+                  <i class="fas fa-user-tie"></i>
+                  <strong>Report To:</strong> <br>Shift Coordinator</br>
+                </p>
+                
+                  <i class="fas fa-laptop"></i>
+                  <strong>Systems Used:</strong> <br> SCADA</br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">My Skills</h2>
+        <div class="skills-container">
+          <div class="skill-category animate-on-scroll" data-delay="0">
+            <h3><i class="fas fa-code"></i> Programming</h3>
+            <div class="skill">
+              <span class="skill-name"><i class="fab fa-java"></i> Java</span>
+              <span class="skill-percent" data-percent="75">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="75%"></div>
+              </div>
+              <span class="tooltip"
+                >Proficient in object-oriented programming and application
+                development.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fab fa-microsoft"></i> C#</span
+              >
+              <span class="skill-percent" data-percent="85">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85%"></div>
+              </div>
+              <span class="tooltip"
+                >Experienced in .NET framework and game development.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fab fa-js-square"></i> JavaScript</span
+              >
+              <span class="skill-percent" data-percent="80">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="80%"></div>
+              </div>
+              <span class="tooltip"
+                >Strong in front-end scripting and dynamic web
+                applications.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fab fa-python"></i> Python</span
+              >
+              <span class="skill-percent" data-percent="75">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="75%"></div>
+              </div>
+              <span class="tooltip"
+                >Used for data analysis, automation, and machine learning.</span
+              >
+            </div>
+          </div>
+          <div class="skill-category animate-on-scroll" data-delay="200">
+            <h3><i class="fas fa-globe"></i> Web Development</h3>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fab fa-html5"></i> HTML/CSS</span
+              >
+              <span class="skill-percent" data-percent="90">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="90%"></div>
+              </div>
+              <span class="tooltip"
+                >Expert in semantic markup and responsive design.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-code"></i> TypeScript</span
+              >
+              <span class="skill-percent" data-percent="70">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="70%"></div>
+              </div>
+              <span class="tooltip"
+                >Typed JavaScript for scalable applications.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"><i class="fab fa-react"></i> React</span>
+              <span class="skill-percent" data-percent="70">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="70%"></div>
+              </div>
+              <span class="tooltip"
+                >Building interactive UIs with components.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fab fa-node-js"></i> Node.js</span
+              >
+              <span class="skill-percent" data-percent="65">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="65%"></div>
+              </div>
+              <span class="tooltip"
+                >Server-side JavaScript for APIs and backends.</span
+              >
+            </div>
+          </div>
+          <div class="skill-category animate-on-scroll" data-delay="400">
+            <h3><i class="fas fa-database"></i> Database</h3>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-database"></i> MySQL</span
+              >
+              <span class="skill-percent" data-percent="85">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85%"></div>
+              </div>
+              <span class="tooltip"
+                >Relational database management and queries.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-database"></i> PostgreSQL</span
+              >
+              <span class="skill-percent" data-percent="75">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="75%"></div>
+              </div>
+              <span class="tooltip"
+                >Advanced SQL features and GIS support.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-database"></i> Microsoft SQL Server</span
+              >
+              <span class="skill-percent" data-percent="70">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="70%"></div>
+              </div>
+              <span class="tooltip">Enterprise-level database solutions.</span>
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-database"></i> MongoDB</span
+              >
+              <span class="skill-percent" data-percent="70">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="70%"></div>
+              </div>
+              <span class="tooltip">NoSQL for flexible data storage.</span>
+            </div>
+          </div>
+          <div class="skill-category animate-on-scroll" data-delay="600">
+            <h3><i class="fas fa-tools"></i> IT Support & Networking</h3>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-certificate"></i> A+(core 1 & core 2)</span
+              >
+              <span class="skill-percent" data-percent="70">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="70%"></div>
+              </div>
+              <span class="tooltip"
+                >Hardware and software troubleshooting.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-network-wired"></i> N+</span
+              >
+              <span class="skill-percent" data-percent="75">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="75%"></div>
+              </div>
+              <span class="tooltip"
+                >Networking fundamentals and configuration.</span
+              >
+            </div>
+            <div class="skill">
+              <span class="skill-name"
+                ><i class="fas fa-tools"></i> Technical Support</span
+              >
+              <span class="skill-percent" data-percent="85">0%</span>
+              <div class="skill-bar">
+                <div class="skill-level" data-level="85%"></div>
+              </div>
+              <span class="tooltip"
+                >Hardware and software troubleshooting.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificates Section -->
+        <h2 class="section-title animate-on-scroll" style="margin-top: 80px">
+          My Certificates
+        </h2>
+        <div class="certificates-container">
+          <div class="certificate-item animate-on-scroll">
+            <h3>
+              <i class="fas fa-certificate"></i> CompTIA A+ Core 1 & Core 2
+            </h3>
+            <p><i class="far fa-calendar-alt"></i> Completed: Aug 19, 2025</p>
+            <a href="ORMCompTiaA+.pdf" target="_blank" class="btn"
+              ><i class="fas fa-eye"></i> View Certificate</a
+            >
+          </div>
+          <div class="certificate-item animate-on-scroll" data-delay="200">
+            <h3>
+              <i class="fas fa-certificate"></i> CompTIA Network+ Certification
+            </h3>
+            <p><i class="far fa-calendar-alt"></i> Completed: Aug 23, 2025</p>
+            <a href="ORMCompTIA N+.pdf" target="_blank" class="btn"
+              ><i class="fas fa-eye"></i> View Certificate</a
+            >
+          </div>
+          <div class="certificate-item animate-on-scroll" data-delay="400">
+            <h3><i class="fas fa-certificate"></i> React JS Masterclass</h3>
+            <p><i class="far fa-calendar-alt"></i> Completed: Sep 11, 2025</p>
+            <a href="ORsAC3bMasterClass.pdf" target="_blank" class="btn"
+              ><i class="fas fa-eye"></i> View Certificate</a
+            >
+          </div>
+          <div class="certificate-item animate-on-scroll" data-delay="600">
+            <h3><i class="fas fa-certificate"></i> Software Testing Basics</h3>
+            <p><i class="far fa-calendar-alt"></i> Completed: Aug 12, 2025</p>
+            <a href="ORMSoftwareTesting.pdf" target="_blank" class="btn"
+              ><i class="fas fa-eye"></i> View Certificate</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="parallax">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card animate-on-scroll" data-delay="0" data-tilt>
+            <div class="project-image">
+              <i class="fas fa-shopping-cart"></i>
+              <div class="project-overlay">
+                <a href="#" class="project-preview">Preview</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Website</h3>
+              <p>
+                A fully responsive e-commerce platform with product filtering,
+                cart functionality, and checkout process.
+              </p>
+              <div class="project-tech">HTML | CSS | JavaScript</div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+          <div
+            class="project-card animate-on-scroll"
+            data-delay="200"
+            data-tilt
+          >
+            <div class="project-image">
+              <i class="fas fa-tasks"></i>
+              <div class="project-overlay">
+                <a href="#" class="project-preview">Preview</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Task Management App</h3>
+              <p>
+                A drag-and-drop task management application with user
+                authentication and real-time updates.
+              </p>
+              <div class="project-tech">React | Node.js | MongoDB</div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+          <div
+            class="project-card animate-on-scroll"
+            data-delay="400"
+            data-tilt
+          >
+            <div class="project-image">
+              <i class="fas fa-graduation-cap"></i>
+              <div class="project-overlay">
+                <a href="#" class="project-preview">Preview</a>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Student Portal</h3>
+              <p>
+                A comprehensive student management system for academic
+                institutions with grade tracking.
+              </p>
+              <div class="project-tech">Java | MySQL | Spring Boot</div>
+              <a href="#" class="project-link">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section id="social-links">
+      <div class="container">
+        <h2 class="section-title">Connect With Me</h2>
+        <div class="social-container">
+          <a
+            href="https://github.com/k3l3tso-dev"
+            target="_blank"
+            class="social-item"
+          >
+            <div class="social-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="social-info">
+              <h3>GitHub</h3>
+              <p>View my projects and code repositories</p>
+            </div>
+          </a>
+
+          <a href="#" class="social-item">
+            <div class="social-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="social-info">
+              <h3>LinkedIn</h3>
+              <p>Connect with me professionally</p>
+            </div>
+          </a>
+
+          <a href="#" class="social-item">
+            <div class="social-icon">
+              <i class="fab fa-youtube"></i>
+            </div>
+            <div class="social-info">
+              <h3>YouTube</h3>
+              <p>Watch my tutorials and content</p>
+            </div>
+          </a>
+
+          <a href="#" class="social-item">
+            <div class="social-icon">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div class="social-info">
+              <h3>Twitter</h3>
+              <p>Follow me for updates</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+        <div class="contact-content">
+          <div class="contact-info animate-on-scroll">
+            <p>
+              Feel free to reach out for collaboration or just to say hello!
+            </p>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>masoho.keletsoandries@gmail.com</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>0637173666</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Pretoria, South Africa</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-map-marked-alt" style="color: #4285f4"></i>
+              <span
+                ><a
+                  href="https://maps.google.com/?q=138 Berg Ave, Heatherdale AH, Akasia, 0182"
+                  target="_blank"
+                  class="address-link google-address"
+                  ><i class="fas fa-map-marker-alt"></i> My Address</a
+                ></span
+              >
+            </div>
+          </div>
+          <form class="contact-form animate-on-scroll" id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" placeholder=" " required />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder=" " required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                placeholder=" "
+                rows="5"
+                required
+              ></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+            <div class="form-message"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="social-links">
+          <a href="https://github.com/k3l3tso-dev" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2025 Keletso Masoho. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/27637173666" class="whatsapp-float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Back to Top Button -->
+    <a href="#hero" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
